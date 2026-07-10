@@ -1,0 +1,107 @@
+/* this is Header section  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+   font-family: "Open Sans", sans-serif;
+
+}
+
+.hed{
+background-color:#ffffff;
+    height: 100px;
+}
+.navber{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    max-width: 2400px;
+    margin: auto;
+    gap: 30px;
+    height: 100px;
+    align-items: center;
+}
+ .nav-ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;  
+    gap: 30px;     
+    
+ }
+ a{
+
+    
+    text-decoration: none;
+    color: #575757;
+    font-size: 22px;
+    font-weight: 500;
+   
+   
+    
+ }
+
+ .common-button {
+   display: flex;
+   justify-content: flex-end;
+    
+ }
+
+ .common-button>button{
+      height: 60px;
+    width: 250px;
+    background-color:#1D4ED8 ;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+
+   
+ }
+
+ .nav-image img{
+  width: 200px;
+  height: auto;
+ }
+
+ /* This is Hero Section here  */
+
+ .hero{
+   background-image:
+   linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+     url("/image/banner.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   min-height: 100vh;
+   
+  
+ }
+
+ .hero-text{
+   display: flex;
+   text-align: center;
+   
+   color: #ffffff;
+   flex-direction: column;
+   gap: 40px;
+   
+ }
+  .hero-text h1{
+font-size: 8rem;
+font-weight: bold;
+margin-top: 7%;
+  }
+
+  .hero-text h3{
+   font-size: 2rem;
+font-weight: bold;
+  }
+  .hero.common-button{
+   display: flex;
+   justify-content: center;
+  }
+
