@@ -255,5 +255,111 @@ padding-bottom: 80px;
 .plane2 p {
   color: #ffffff;
 }
-  
+   /* This is a Something Missing section  */
+
+   .missing-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    margin: 5%;
+    gap: 50px;
+    }
+
+    .missing-cards .mis-card{
+      background-color: #ffffff;
+      border: 1px solid #E5E7EB;
+      border-radius: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      border-bottom: 4px solid #2563EB;
+    }
+
+    .icon{
+      display: flex;
+      width: 120px;
+      height:  120px;
+      justify-content: center;
+      background: #EEF4FF;
+      border-radius: 50%;
+      align-items: center;
+      margin: 25px;
+      font-size: 3rem;
+      color: #2563EB;
+    }
+
+    .mis-card h2{
+      color: #2563EB;
+      font-size: 3rem;
+      margin: 10px;
+    }
+
+    .mis-card h3{
+      font-size: 1.5rem;
+      
+    }
+    .mis-card .line{
+      height: 4px;
+      width: 50px;
+      background-color: #dbdde0;
+    border-radius: 999px;
+    margin: 20px auto;
+    }
+
+    .mis-card p{
+      color: #575757;
+      margin: 0 30px 30px 30px;
+      font-size: 18px;
+      line-height: 35px;
+    }
+   
+.Missing{
+  text-align: center;
+  margin: 50px;
+}
+
+.Missing h2{
+  font-size: 4rem;
+  padding: 10px;
+}
+.Missing h4{
+  color: #2563EB;
+  font-size: 20px;
+}
+
+.Missing p{
+  color: #575757;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.mis-card .icon-second{
+  color: green;
+  background-color: #d8f8e2;
+}
+.mis-card .icon-third{
+  color: red;
+  background-color: #f7c9c9;
+}
+
+.mis-card .icon-fourth{
+  color: hotpink;
+  background-color: #fadbf1;
+}
+
+.mis-card2 h2{
+  color: green;
+}
+.mis-card3 h2{
+  color: red;
+}
+.mis-card4 h2{
+  color: hotpink;
+}
+
+
+
+
+
   
