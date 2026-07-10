@@ -125,10 +125,17 @@ padding-bottom: 80px;
     margin: 5%;
     gap: 50px;
   }
-
+.speakers h1{
+  text-align: center;
+  margin: 50px;
+  font-size: 6rem;
+  
+}
   .speaker img{
     width: 100%;
     display: block;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
   }
 
   .speaker{
@@ -152,3 +159,101 @@ padding-bottom: 80px;
     color: #575757;
     margin-bottom: 20px;
    }
+
+   /* this is plane section  */
+
+   .pro-plan{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 7%;
+    gap: 100px;
+   }
+
+   .plane h1 { 
+    text-align: center;
+    margin: 30px;
+    font-size: 5rem;
+   }
+   .plane h4 { 
+    text-align: center;
+    margin: 30px;
+    font-size: 18px;
+    color: #575757;
+   }
+
+   .plane{
+    margin: 30px;
+   }
+
+   .plane-card{
+    
+    background-color: #E5E7EB;
+    padding: 40px;
+    border-radius: 10px;
+   }
+
+   .plane-card h3,
+   .plane-card p ,
+   .plane-card ul{
+    color: #575757;
+    padding: 20px;
+    
+   }
+
+   .plane-card h2{
+    font-size: 4rem;
+    padding-left: 20px;
+    color:#0D1B2A ;
+   }
+
+   .plane-card ul{
+    margin: 20px;
+   }
+   .plane-card li{
+    margin-bottom: 20px;
+   }
+
+   .button-cluss{
+    display: grid;
+   }
+
+   .main-button1{
+    height: 60px;
+    color: #2563EB;
+    border: 2px solid #2563EB;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+
+   }
+   .button-cluss .main-button2{
+    color: #ffffff;
+    background-color: #2563EB;
+   }
+
+   .button-cluss .main-button3{
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    height: 60px;
+
+   }
+   .pro-plan .plane2{
+    background-color: #0D1B2A;
+    
+   }
+   .plane2 h3{
+    color: #93C5FD;
+    
+   }
+
+   /* .plane2 .paragraph2, .list-2, .hedding2{
+    color: #ffffff;
+   } */
+.plane2 h2,
+.plane2 ul,
+.plane2 p {
+  color: #ffffff;
+}
+  
+  
