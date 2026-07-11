@@ -18,4 +18,5 @@ yes this is an Design of Developers confarense Website and there is a something 
  6th prompt-
  how i got those icons?
 
+ ভাই hover effect অ্যাড করছি , আমি আগে থেকেই এটা পারি । আপনারা আবার মনে কইরেন না ai দিয়া করছি। ধন্যবাদ
  
