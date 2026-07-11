@@ -61,7 +61,13 @@ body{
     color: #ffffff;
     font-weight: 600;
     font-size: 20px;
+    transition: all 0.3s ease;
  }
+ .main-button:hover{
+      transform: translateY(-8px) scale(1.1);
+      box-shadow: 8px 8px 18px darkgray;
+      background-color: darkblue;
+    }
 
  .nav-image img{
   width: 200px;
@@ -141,7 +147,12 @@ padding-bottom: 80px;
   .speaker{
     border: 1px solid #E5E7EB ;
     border-radius: 20px;
+    transition: all 0.3s ease;
   }
+  .speaker:hover{
+      transform: translateY(-12px) scale(1.03);
+      box-shadow: 8px 8px 18px darkcyan;
+    }
 
   .speaker h4{
     padding: 20px;
@@ -190,7 +201,13 @@ padding-bottom: 80px;
     background-color: #E5E7EB;
     padding: 40px;
     border-radius: 10px;
+    transition: all 0.3s ease;
    }
+
+   .plane-card:hover{
+      transform: translateY(-12px) scale(1.03);
+      box-shadow: 8px 8px 18px darkcyan;
+    }
 
    .plane-card h3,
    .plane-card p ,
@@ -272,8 +289,12 @@ padding-bottom: 80px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      
+      transition:all 0.3s ease ;
       border-bottom: 4px solid #2563EB;
+    }
+     .mis-card:hover{
+      transform: translateY(-12px) scale(1.03);
+      box-shadow: 8px 8px 18px darkcyan;
     }
 
     .icon{
@@ -377,9 +398,14 @@ padding-bottom: 80px;
   border: 1px solid #E5E7EB;
   border-radius: 20px;
   border-bottom: 5px solid #2563EB;
+  transition: all 0.3s ease;
   
 
 
+}
+.extra:hover{
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 8px 8px 12px darkcyan;
 }
 
 .one-mission{
@@ -420,7 +446,9 @@ padding-bottom: 80px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: #1f212f;
+  
 }
+
 
 .footer1{
   display: flex;
