@@ -47,7 +47,7 @@ body{
  .nav-button {
    display: flex;
    justify-content: flex-end;
-   margin-right: 50px;
+   margin-right: 100px;
     
  }
 
@@ -66,7 +66,7 @@ body{
  .nav-image img{
   width: 200px;
   height: auto;
-  margin-left: 50px;
+  margin-left: 100px;
  }
 
  /* This is Hero Section here  */
@@ -359,7 +359,143 @@ padding-bottom: 80px;
 }
 
 
+ .missing-cards .mis-card2{
+  border-bottom: 4px solid green;
+}
+ .missing-cards .mis-card3{
+  border-bottom: 4px solid red;
+}
+ .missing-cards .mis-card4{
+  border-bottom: 4px solid hotpink;
+}
 
+/* this is extra on Missing Something Section  */
+.extra{
+  display: grid;
+  grid-template-columns: 2fr 2fr auto ;
+  margin: 7%;
+  border: 1px solid #E5E7EB;
+  border-radius: 20px;
+  border-bottom: 5px solid #2563EB;
+  
+
+
+}
+
+.one-mission{
+  display: grid;
+  grid-template-columns:auto 1fr;
+}
+
+.one-mission .icon{
+  padding-top: none;
+}
+
+.one-mission .texts{
+  margin-top: 50px;
+}
+.one-mission .texts p{
+  font-size: 1.5rem;
+  line-height: 50px;
+  color: #0151ff;
+  font-weight: 700;
+
+}
+
+.extra .seco-text {
+  margin: 50px;
+  font-size: 1.3rem;
+  color: #575757;
+  line-height: 40px;
+}
+
+.extra .main-button{
+  margin: 55px;
+}
+
+
+/* This is Footer Section  */
+
+.footer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #1f212f;
+}
+
+.footer1{
+  display: flex;
+  margin-left: 12%;
+
+}
+.icon-third{
+  background-color: #0151ff;
+  color: #ffffff;
+  border-radius: 20px;
+  height: 80px;
+  width: 80px;
+
+}
+.foot-text h2{
+  color: #ffffff;
+  margin-top: 30px;
+  font-size: 2rem;
+}
+.foot-text h3{
+  color: #0151ff;
+  font-size: 20px;
+}
+
+
+.footer2 h3{
+ margin:20px 0 20px 160px ;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.foot-icons{
+  display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-right: 17%;
+}
 
 
   
+.foot-icons .foot-icon{
+  display: flex;
+      width: 40px;
+      height:  40px;
+      justify-content: center;
+      background-color: #263546;
+      border-radius: 50%;
+      align-items: center;
+      /* margin:  ; */
+      font-size: 1.5rem;
+      color: #ffffff;
+      border: 1px solid #57647e;
+}
+
+.footer3{
+  margin-left: 13%;
+}
+.footer4{
+  margin-right: 15%;
+}
+
+.footer3 p{
+color: #ffffff;
+padding: 20px;
+}
+
+.footer4 p{
+  text-align: end;
+
+color: #ffffff;
+padding: 30px;
+}
+hr{
+  border: none;
+  height: 2px;
+ background-color: #575757;
+}
